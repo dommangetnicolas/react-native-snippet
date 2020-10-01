@@ -16,5 +16,14 @@
         "export default ${TM_FILENAME_BASE/(.*)$/${1:/capitalize}/};\n"
       ],
       "description": "Creates a functional React component"
+    },
+    "React native (TS) Stylesheet": {
+      "prefix": "rntsstyles",
+      "body": [
+        "const styles = StyleSheet.create({",
+        "",
+        "});"
+      ],
+      "description": "Creates a functional React component"
     }
   }
