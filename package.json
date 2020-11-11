@@ -3,7 +3,7 @@
 	"displayName": "React Native snippet",
 	"description": "Snippets for React Native on TypeScript and JavaScript",
 	"icon": "src/assets/logo.png",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "Nicolas Dommanget-Muller",
 	"license": "MIT",
 	"repository": {
