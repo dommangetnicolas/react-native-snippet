@@ -1,36 +1,36 @@
 {
-    "React native (TS) functional component": {
-      "prefix": "rntsfc",
-      "body": [
-        "import React, { FunctionComponent } from \"react\";",
-        "import { View } from \"react-native\";",
-        "",
-        "const ${TM_FILENAME_BASE/(.*)$/${1:/capitalize}/}: FunctionComponent = () => {",
-        "\treturn (",
-        "\t\t<View>",
-        "\t\t\t$0",
-        "\t\t</View>",
-        "\t);",
-        "};",
-        "",
-        "export default ${TM_FILENAME_BASE/(.*)$/${1:/capitalize}/};\n"
-      ],
-      "description": "Creates a functional React component"
-    },
-    "React native (TS) Stylesheet": {
-      "prefix": "rntsstyles",
-      "body": [
-        "const styles = StyleSheet.create({",
-        "",
-        "});"
-      ],
-      "description": "Creates a functional React component"
-    },
-    "React useState": {
-      "prefix": "rntssst",
-      "body": [
-        "const [data, setData] = useState<any>(null)"
-      ],
-      "description": "Creates state using useState"
-    }
+  "React native (TS) functional component": {
+    "prefix": "rntsfc",
+    "body": [
+      "import React, { FunctionComponent } from \"react\";",
+      "import { View } from \"react-native\";",
+      "",
+      "const ${TM_FILENAME_BASE/(.*)$/${1:/capitalize}/}: FunctionComponent = () => {",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t\t$0",
+      "\t\t</View>",
+      "\t);",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE/(.*)$/${1:/capitalize}/};\n"
+    ],
+    "description": "Creates a functional React component"
+  },
+  "React native (TS) Stylesheet": {
+    "prefix": "rntsstyles",
+    "body": [
+      "const styles = StyleSheet.create({",
+      "",
+      "});"
+    ],
+    "description": "Creates a functional React component"
+  },
+  "React (TS) useState": {
+    "prefix": "rntssst",
+    "body": [
+      "const [data, setData] = useState<any>(null);"
+    ],
+    "description": "Creates state using useState"
   }
+}

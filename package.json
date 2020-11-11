@@ -2,6 +2,7 @@
 	"name": "react-native-snippet",
 	"displayName": "React Native snippet",
 	"description": "Snippets for React Native on TypeScript and JavaScript",
+	"icon": "src/assets/logo.png",
 	"version": "0.0.1",
 	"author": "Nicolas Dommanget-Muller",
 	"license": "MIT",
@@ -33,14 +34,6 @@
 			{
 				"language": "typescriptreact",
 				"path": "./src/snippets/ts.json"
-			},
-			{
-				"language": "jsx",
-				"path": "./src/snippets/js.json"
-			},
-			{
-				"language": "tsx",
-				"path": "./src/snippets/js.json"
 			}
 		]
 	},
