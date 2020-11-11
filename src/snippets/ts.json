@@ -25,5 +25,12 @@
         "});"
       ],
       "description": "Creates a functional React component"
+    },
+    "React useState": {
+      "prefix": "rntssst",
+      "body": [
+        "const [data, setData] = useState<any>(null)"
+      ],
+      "description": "Creates state using useState"
     }
   }
