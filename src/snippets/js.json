@@ -1,0 +1,37 @@
+{
+    "React native functional component": {
+      "prefix": "rnfc",
+      "body": [
+        "import React from \"react\";",
+        "import { View } from \"react-native\";",
+        "",
+        "const ${TM_FILENAME_BASE/(.*)$/${1:/capitalize}/} = () => {",
+        "\treturn (",
+        "\t\t<View>",
+        "\t\t\t$0",
+        "\t\t</View>",
+        "\t);",
+        "};",
+        "",
+        "export default ${TM_FILENAME_BASE/(.*)$/${1:/capitalize}/};\n"
+      ],
+      "description": "Creates a functional React component"
+    },
+    "React native Stylesheet": {
+      "prefix": "rnstyles",
+      "body": [
+        "const styles = StyleSheet.create({",
+        "",
+        "});"
+      ],
+      "description": "Creates a functional React component"
+    },
+    "React useState": {
+      "prefix": "rnsst",
+      "body": [
+        "const [data, setData] = useState(null);"
+      ],
+      "description": "Creates state using useState"
+    }
+  }
+  
